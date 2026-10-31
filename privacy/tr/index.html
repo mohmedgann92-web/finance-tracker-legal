@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="tr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gizlilik Politikası</title>
+<style>:root{color-scheme:light dark;--bg:#F6F8FB;--fg:#22272B;--muted:#5E6873;--line:#D9E0E7;--accent:#A96A2C}
+@media (prefers-color-scheme:dark){:root{--bg:#24282C;--fg:#ECEFF2;--muted:#B8C0C8;--line:#434A50;--accent:#C98546}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:0 16px 64px}
+main{max-width:720px;margin:0 auto}
+header{padding:28px 0 8px;border-bottom:1px solid var(--line);margin-bottom:8px}
+h1{font-size:1.8rem;line-height:1.2;margin:0 0 6px}
+h2{font-size:1.15rem;margin:2rem 0 .5rem}
+p,li{max-width:68ch}
+li{margin:.35rem 0}
+a{color:var(--accent)}
+nav.lang{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:.92rem}
+nav.lang b{color:var(--muted)}
+footer{margin-top:3rem;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:1rem}
+.cards{display:grid;gap:12px;margin-top:1.5rem}
+.card{display:block;border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--fg)}
+.card strong{display:block;color:var(--accent);margin-bottom:2px}</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Gizlilik Politikası</h1>
+<nav class="lang" aria-label="Language"><a href="../../privacy/" hreflang="en">English</a> <a href="../../privacy/ar/" hreflang="ar">العربية</a> <b>Türkçe</b></nav>
+</header>
+<p>Son güncelleme: 31 Ekim 2026</p>
+<p>Bu uygulama kişisel bir finans takip aracıdır. Yazdığınız gelir, gider ve yatırımları, ödeme yaptığınız kartları ve banka hesaplarını, içe aktardığınız ekstreleri kaydeder, grafikler gösterir ve izin verirseniz bir yapay zekâ hizmetinden eğilimlerinizi incelemesini isteyebilir. Bu politika, uygulamanın hangi verilerle ilgilendiğini, bunların nereye gittiğini ve bunlar hakkında neler yapabileceğinizi açıklar.</p>
+<p>Uygulamayı geliştiricisi yapar ve işletir; verilerinizden o sorumludur. İletişim: <strong><a href="mailto:familyfinance.support@gmail.com">familyfinance.support@gmail.com</a></strong>.</p>
+<p>Reklam göstermeyiz, sizi uygulamalar ya da web siteleri arasında izlemeyiz, verilerinizi reklam amacıyla satmayız ya da paylaşmayız ve uygulamada bize ait analiz veya çökme raporlama araçları yoktur. Uygulama bankanıza asla bağlanmaz, banka girişinizi görmez ve para taşıyamaz.</p>
+<h2>1. Ne topluyoruz ve neden</h2>
+<ul>
+<li><strong>E-posta adresiniz ve şifreniz.</strong> Hesabınızı oluşturmak ve giriş yapmanızı sağlamak için. Şifrenin kendisini değil, yalnızca güvenli bir özetini (hash) saklarız. Barındırma sağlayıcımız Supabase&#x27;te, Frankfurt, Almanya&#x27;da tutulur.</li>
+<li><strong>Belirlediyseniz görünen adınız.</strong> Bir kaydı kimin eklediğini ortak alanın diğer üyelerine göstermek için. Supabase&#x27;te, Frankfurt&#x27;ta tutulur.</li>
+<li><strong>Mali kayıtlarınız.</strong> İşlemler ve notları, kategoriler ve alt kategoriler (sizin oluşturduğunuz adlar dahil), hesaplar, bütçeler, yinelenen ödemeler ve hatırlatıcılar, yatırım varlıkları, elle girilen varlık değerleri ve yapay zekâ raporları. Uygulamanın amacı budur: kayıtlarınızı saklamak, toplamak ve grafiğe dökmek. Supabase&#x27;te, Frankfurt&#x27;ta tutulur; yalnızca ait oldukları alanın üyeleri okuyabilsin diye korunur.</li>
+<li><strong>Ödeme yaptığınız kartlar ve banka hesapları.</strong> Türü (nakit, banka hesabı, kredi kartı, banka kartı), verdiğiniz ad, bankanın adı, <strong>yalnızca son 4 hane</strong>, para birimi ve renk; kredi kartı için ekstre günü, son ödeme günü, kredi limiti, açılış bakiyesi ve son ödemeden kaç gün önce hatırlatılacağı. Bu, her kaydın neyle ödendiğini, bir kartta ne borcunuz olduğunu ve ne zaman ödeneceğini gösterir. <strong>Tam kart ya da hesap numarasını</strong>, son kullanma tarihini, güvenlik kodunu veya banka girişini asla istemez ve saklamayız. Supabase&#x27;te, Frankfurt&#x27;ta tutulur. Yalnızca siz okuyabilirsiniz (diğerlerinin gördüğü etiket 4. bölümde anlatılır).</li>
+<li><strong>Kart borcu ödemeleri.</strong> Kendi iki kartınız veya hesabınız arasında taşıdığınız para (&quot;Kart borcunu öde&quot; gibi), tutar, tarih ve isteğe bağlı bir notla. Harcama sayılmadan karttaki borcunuzu düşürür. Yalnızca kişisel kayıtlarınızda tutulur, ortak alanlarda asla gösterilmez ve yedeklere dahil edilmez.</li>
+<li><strong>Ekstre içe aktarmaları.</strong> İnceleme ekranında işaretlediğiniz kayıtlar ve içe aktarmanın kaydı: dosyanın adı, kart ya da hesap, kayıt sayısı ve tarih. Böylece son içe aktarmalarınızı görebilir ve 30 gün içinde birini geri alabilirsiniz. <strong>Ekstre dosyasının kendisi cihazınızdan asla çıkmaz.</strong></li>
+<li><strong>Ortak bir alana davet ettiğiniz e-posta adresleri.</strong> O kişileri alana eklemek ve davetiyeyi göndermek için.</li>
+<li><strong>Bir alanın sahibi eklediyse hisse fiyatı anahtarı</strong> (3. bölüm). O alan için hisse fiyatlarını sahibinin kendi ücretsiz hesabıyla almak için. Veritabanının gizli anahtar deposunda şifreli saklanır, sahibine bile bir daha gösterilmez ve alanla birlikte silinir.</li>
+</ul>
+<p>Bu verileri yalnızca uygulamanın özelliklerini size sunmak için kullanırız. Sizin istediğiniz için (kaydolduğunuz hizmeti sunmak üzere) ve yapay zekâ içgörüleri için alanın sahibi onay verdiği için işleriz (5. bölüm).</p>
+<h2>2. Cihazınızda kalanlar</h2>
+<p>Bunlar telefonunuzdan veya bilgisayarınızdan asla çıkmaz:</p>
+<ul>
+<li><strong>Sesli giriş</strong> (iPhone): konuşma cihazda tanınır. Telefonunuz dilinizi çevrimdışı tanıyamıyorsa sesli giriş çalışmaz; asla bir sunucuya geçmez.</li>
+<li><strong>Fiş fotoğrafları</strong> (iPhone): metin cihazda okunur. Fotoğraf yüklenmez ve uygulama metin okunur okunmaz kendi kopyasını siler.</li>
+<li>İçe aktardığınız <strong>ekstre dosyaları</strong> (CSV, Excel ve PDF) cihazda okunur. Yalnızca işaretlediğiniz kayıtlar kaydedilir (1. bölüm).</li>
+<li><strong>PDF şifreleri</strong>: bir ekstre PDF&#x27;i korumalıysa uygulama şifreyi her seferinde sorar, o dosyayı cihazda açmak için kullanır ve asla saklamaz ya da göndermez.</li>
+<li><strong>Kâğıt ekstre fotoğrafları ve taranmış PDF&#x27;ler</strong> (iPhone): metin cihazda, yalnızca Latin alfabesini okuyan Google ML Kit ile okunur. Fotoğraflar yüklenmez ve uygulama okunduktan sonra kopyalarını siler. Taranan ekstre &quot;Scan 2026-10-16 14:23:05&quot; gibi tarafsız bir adla listelenir.</li>
+<li>İçe aktarılan kayıtlar için <strong>kategori önerileri</strong> ve uygulamanın her bankanın dosya biçimi için hatırladığı <strong>ekstre düzenleri</strong> cihazda hesaplanır ve saklanır.</li>
+<li>Yapıştırdığınız <strong>banka mesajları</strong> ve uygulamanın bunlardan ve içe aktarmalardan öğrendikleri (hangi işyeri hangi kategoriye, hangi kart hangi hesaba ait).</li>
+<li><strong>Son ödeme yaptığınız kart veya hesap</strong>; sonraki kayıt onunla başlasın diye.</li>
+<li>Kart son ödeme hatırlatıcıları dahil <strong>hatırlatıcılar</strong>, cihazda zamanlanan bildirimlerdir.</li>
+<li>Verilerinizin <strong>çevrimdışı kopyası</strong> ve yüklenmeyi bekleyen kayıtlar.</li>
+<li><strong>&quot;Beni hatırla&quot;</strong>: açarsanız e-postanız ve şifreniz cihazın şifreli deposunda (iOS Anahtar Zinciri veya Windows Kimlik Bilgisi Yöneticisi) tutulur. Giriş yapmanız dışında hiçbir yere gönderilmez.</li>
+<li><strong>Face ID ve Touch ID</strong> (iPhone): bunlarla girişi veya uygulama kilidini açarsanız telefon uygulamaya yalnızca evet ya da hayır der. Yüzünüz veya parmak iziniz uygulamaya da bize de ulaşmaz. İki anahtar cihazın şifreli deposunda tutulur.</li>
+<li>Hatırlatıcı ayarları ve ilk açılış turunun ilerlemesi.</li>
+</ul>
+<h2>3. Bizim için veri işleyen hizmetler</h2>
+<ul>
+<li><strong>Supabase</strong> (veritabanı, giriş, sunucu işlevleri), AB bölgesi, Frankfurt. 1. bölümdeki her şeyi alır, her zaman; hesabınız burada yaşar.</li>
+<li><strong>Groq</strong>, Amerika Birleşik Devletleri. 5. bölümde anlatılan özeti alır, yalnızca alanın sahibi yapay zekâ içgörülerini açtıysa.</li>
+<li><strong>Google ML Kit</strong> (fiş ve ekstre tarama, iPhone). Fotoğrafı ya da metnini almaz. Google&#x27;ın kitaplığı; fiş, kâğıt ekstre veya taranmış PDF taradığınızda tanılama ve kullanım analizi için cihaz, uygulama ve performans bilgilerini, kurulum başına tanımlayıcıları ve hata kodlarını Google&#x27;a gönderir.</li>
+<li><strong>jsDelivr</strong> (döviz kurları). Her web isteğinde olduğu gibi cihazınızın IP adresini ve hangi para biriminin ve tarihin sorulduğunu alır. Hesap verisi yok. Başka bir para biriminde tutar girdiğinizde, ana para biriminizi değiştirdiğinizde veya başka para biriminde ekstre içe aktardığınızda kullanılır.</li>
+<li><strong>Twelve Data</strong> (ABD hisseleri ve ETF&#x27;leri) ve <strong>Alpha Vantage</strong> (Londra ve XETRA kotasyonları). Yalnızca alanın sahibi kendi ücretsiz anahtarını eklediyse: o alanda tutulan hisse ve ETF sembolleri sahibin anahtarıyla gönderilir; kullanıcı, tutar ya da hesap verisi gönderilmez. Uygulamada biri bir hisse aradığında, arama kutusuna yazılan metin sunucumuzdan, anahtar ya da kullanıcı verisi olmadan Twelve Data&#x27;nın herkese açık aramasına gönderilir.</li>
+<li><strong>CoinGecko</strong> (fiyatlar). Yalnızca tüm kullanıcılarda tutulan kripto ve maden sembollerinin listesini alır; sunucumuz günde bir kez gönderir. Kullanıcı, alan, tutar veya cihaz bilgisi yok.</li>
+<li><strong>Google (Gmail)</strong>, e-postalarımızı ileten. Alıcının e-posta adresini ve e-postanın içeriğini alır: kayıt veya şifre sıfırlama kodu, &quot;şifre değişti&quot; bildirimi, silinen hesabın özeti (alanlarınızın ve devredildikleri kişilerin adları), bir <strong>davetiye</strong> (davet ettiğiniz kişiye gider; alanın adını ve sizin görünen adınızı ve e-postanızı içerir) veya <strong>fiyat anahtarı kurulum adımları</strong> (istediğinizde size gönderilir).</li>
+<li><strong>Brevo</strong> (yedek e-posta gönderici). Davetiye, hesap silindi ve kurulum adımları e-postaları için Gmail ile aynısını alır; yalnızca Gmail teslim edemediği için açarsak. Bugün kullanılmıyor.</li>
+</ul>
+<h2>4. Ortak alanlar: kim neyi görür</h2>
+<p>Herkesin yalnızca kendisinin görebildiği bir kişisel alanı vardır. Ayrıca ortak bir alan (örneğin aile için) oluşturup kişileri davet edebilirsiniz. <strong>Ortak bir alandaki herkes içindeki her şeyi görür</strong>: kayıtlar, notlar, kategoriler, bütçeler, varlıklar ve yapay zekâ raporları; ayrıca her üyenin e-posta adresi veya görünen adı ve her kaydı kimin eklediği. Alanın ayarlarını değiştirmek, üye davet etmek veya çıkarmak ya da alanı silmek yalnızca sahibinin elindedir.</p>
+<p><strong>Ortak alandaki kartlar ve hesaplar.</strong> Kartlarınız ve banka hesaplarınız bir alana değil size aittir. Ortak bir alanda onlardan biriyle kayıt girdiğinizde diğer üyeler o kartın <strong>adını, türünü, rengini ve son 4 hanesini</strong> ve sizin olduğunu görür. Diğer kartlarınızı, bankanızın adını, bakiyeleri, kredi limitlerini, son ödeme tarihlerini ya da kart borcu ödemelerinizi asla görmezler. Kartı daha sonra kaldırırsanız veya hesabınızı silerseniz, kaydedilmiş kayıtlar adı ve son 4 haneyle sade bir etiket taşır; böylece ailenin kayıtları neyle ödendiğini söylemeye devam eder.</p>
+<p><strong>Ortak alandaki ekstre içe aktarmaları.</strong> Üyeler o alandaki son içe aktarmaların listesini görür (dosya adı, tarih ve kayıt sayısı). Bir ekstreyi yalnızca içe aktaran kişi geri alabilir.</p>
+<h2>5. Yapay zekâ içgörüleri (isteğe bağlı)</h2>
+<p>Yapay zekâ içgörüleri <strong>bir alanın sahibi açana kadar kapalıdır</strong>. Bir şey gönderilmeden önce uygulama nelerin paylaşılacağını gösterir ve sahibinden izin ister. Sahip bunu istediği zaman Ayarlar&#x27;dan kapatabilir; bundan sonra hiçbir şey gönderilmez.</p>
+<p><strong>Ortak alanda sahip, içindeki herkes adına karar verir.</strong> Diğer üyeler yapay zekâ analizinin açık ya da kapalı olduğuna dair bir not görür ama değiştiremez. Bir alanın yeni bir sahibi olursa (örneğin önceki sahip hesabını sildiği için) veya bir yedekten geri yüklenirse, sahibi izin verene kadar içgörüler yeniden kapalı başlar.</p>
+<p>Yapay zekâ içgörüleri açıkken sunucumuz alanın bir özetini oluşturur ve <strong>Amerika Birleşik Devletleri&#x27;ndeki Groq&#x27;a</strong> gönderir. Özet şunları içerir:</p>
+<ul>
+<li>gelir, harcama ve yatırımın aylık toplamları ve tasarruf oranları;</li>
+<li>kategori ve yatırım türü başına toplamlar, <strong>sizin oluşturduğunuz kategori ve alt kategori adları dahil</strong> (seçtiğiniz bir ad bir kişinin adı gibi kişisel bilgi içeriyorsa o ad da gönderilir);</li>
+<li>bütçeleriniz ve bunlara ne kadar yaklaştığınız;</li>
+<li>yinelenen ödemeler ve yinelenen gibi görünen ödemeler (kategori ve tutara göre);</li>
+<li>o alanın önceki raporunun bulguları.</li>
+</ul>
+<p><strong>Notlar gönderilmez</strong>, ancak sahip ayrıca varsayılan olarak kapalı olan <strong>&quot;Notları dahil et&quot;</strong> seçeneğini açarsa gönderilir. Açıkken, rapor adlandırabilsin diye yinelenen ödemelerin notlarının ilk 40 karakteri gönderilir.</p>
+<p><strong>Asla gönderilmeyenler:</strong> e-postanız, adınız, hesap adları, alanın adı, tek tek işlemler ve <strong>kartlarınız, banka hesaplarınız, kart borcu ödemeleriniz veya ekstre dosyalarınız</strong> hakkında her şey.</p>
+<p>Groq&#x27;un şartları, özeti yapay zekâ modellerini eğitmek veya geliştirmek için kullanmasına izin vermez. Groq&#x27;un sıfır veri saklama özelliğini açtık; bu yüzden Groq yanıt verdikten sonra özeti ya da raporu saklamaz.</p>
+<p>Yapay zekâ hizmeti kısa bir rapor döndürür ve biz bunu alanda saklarız. Raporlar bilgilendirme amaçlıdır; mali veya yatırım tavsiyesi değildir.</p>
+<h2>6. Aldığınız yedekler</h2>
+<p>Bir alanın yedek dosyasını kaydedebilirsiniz. Dosya cihazınızda oluşturulur ve seçtiğiniz yere (örneğin Dosyalar, iCloud Drive veya OneDrive) kaydedilir. <strong>Biz onu asla almayız.</strong> Alanın işlemlerini, kategorilerini, hesaplarını, bütçelerini, yinelenen ödemelerini ve varlıklarını ve her kayıt için onu ödeyen kartın ya da hesabın etiketini (adı ve son 4 hanesi) içerir. E-postanızı, şifrenizi, hesap tanımlayıcılarınızı, kart ayarlarınızı veya kart borcu ödemelerinizi içermez.</p>
+<p>Bir parola belirlerseniz dosya, parolanızdan türetilen bir anahtarla AES-256-GCM ile şifrelenir (PBKDF2-HMAC-SHA256). Parolayı asla görmeyiz, saklamayız ve kurtaramayız. <strong>Parola olmadan dosyaya sahip olan herkes onu okuyabilir.</strong> Bir yedeği geri yüklemek sahibi olduğunuz yeni bir alan oluşturur; mevcut bir alanın üzerine asla yazmaz.</p>
+<h2>7. Verileri ne kadar saklarız ve hesabınızı silme</h2>
+<p>Hesabınız olduğu sürece verilerinizi saklarız. Kayıtları, kategorileri, kartları, borç ödemelerini ve alanları istediğiniz zaman silebilir, bir ekstre içe aktarmasını yapıldıktan sonra 30 gün içinde geri alabilirsiniz.</p>
+<p><strong>Hesabınızı uygulamadan silin:</strong> Ayarlar › Hesap › Hesabı sil. Onaylamadan önce uygulama tam olarak ne olacağını gösterir:</p>
+<ul>
+<li>girişiniz, profiliniz, kişisel alanınız ve tek üyesi olduğunuz her alan, içindekilerle birlikte silinir;</li>
+<li><strong>kartlarınız ve banka hesaplarınız, kart borcu ödemeleriniz ve içe aktarma kayıtlarınız</strong> silinir;</li>
+<li>sahibi olduğunuz ve başka üyeleri bulunan bir ortak alan <strong>en eski üyesine devredilir</strong> ve o sahibi olur; içindeki kayıtlarınız onun adı altında kalır;</li>
+<li><strong>başkalarının alanlarındaki kayıtlarınız kalır</strong> ve o alanın sahibine geçer; böylece onların kayıtları eksiksiz kalır. Bu kayıtlar, ödendikleri kartın etiketini (adı ve son 4 hanesi) taşımaya devam eder.</li>
+</ul>
+<p>Silme anında gerçekleşir. Barındırma sağlayıcımız, rutin yedeklerinde kopyaları sınırlı bir süre (en çok 7 gün) tutabilir, sonra bunlar sona erer. Kendinizin kaydettiği yedek dosyaları etkilenmez; onları ayrıca silin.</p>
+<p><strong>Davetiye ve e-posta isteği kayıtları.</strong> Gönderim sınırlarını (adres ve alan başına günde bir davetiye, kişi başına günde 20, günde üç kurulum adımı e-postası) uygulamak için davet edilen her e-posta adresinin ve istenen her e-postanın kaydını zamanıyla birlikte tutarız. Bu kayıtları 3 gün içinde sileriz.</p>
+<p>Hesabınızın silinmesini istemek için <a href="mailto:familyfinance.support@gmail.com">familyfinance.support@gmail.com</a> adresine de yazabilirsiniz.</p>
+<p>Silme tamamlandığında adresinize son bir e-posta göndeririz. Neyin silindiğini, devredildiğini ve kaldığını onaylar. Bunun bir kopyasını saklamayız.</p>
+<h2>8. Haklarınız</h2>
+<p>Yaşadığınız yere göre (örneğin AB, Birleşik Krallık veya Türkiye) şu haklara sahipsiniz:</p>
+<ul>
+<li>verilerinize <strong>erişme</strong> ve bir kopyasını alma (uygulama CSV dosyaları ve tam yedek dosyaları dışa aktarır);</li>
+<li>verileri <strong>düzeltme</strong> (uygulamada düzenleyin);</li>
+<li>verileri <strong>silme</strong> (7. bölüm);</li>
+<li>yapay zekâ içgörüleri için verdiğiniz <strong>onayı geri çekme</strong>, istediğiniz zaman (Ayarlar);</li>
+<li>işlenmesine <strong>itiraz etme</strong> veya sınırlandırma;</li>
+<li>veri koruma kurumunuza <strong>şikâyet etme</strong>.</li>
+</ul>
+<p>Bu haklardan herhangi birini kullanmak için <a href="mailto:familyfinance.support@gmail.com">familyfinance.support@gmail.com</a> adresine yazın. 30 gün içinde yanıtlarız.</p>
+<p><strong>Uluslararası aktarımlar.</strong> Hesap verileriniz AB&#x27;de saklanır. Bir alanın sahibi yapay zekâ içgörülerini açarsa 5. bölümdeki özet Amerika Birleşik Devletleri&#x27;nde Groq tarafından işlenebilir.</p>
+<h2>9. Gönderdiğimiz e-postalar</h2>
+<p>Yalnızca hizmet e-postaları göndeririz, asla pazarlama değil. Altı tanedir: kaydolurken e-postanızı doğrulama kodu, unutulan şifreyi sıfırlama kodu, şifreniz değiştiğinde bildirim, hesabınız silindiğinde onay, ortak bir alana davet ettiğiniz kişiye davetiye ve istediğinizde hisse fiyatı anahtarı kurulum adımları. Uygulamada kullandığınız dilde yazılırlar.</p>
+<h2>10. Güvenlik</h2>
+<p>Veriler şifreli (HTTPS) taşınır. Veritabanı her kişinin yalnızca ait olduğu alanları, kartları, hesapları ve borç ödemelerini okumasına izin verir. Hesap silme şifrenizi gerektirir. Tam kart numarası ya da banka girişi asla istemeyiz ve PDF şifreleri asla saklanmaz. Hiçbir sistem tamamen güvenli değildir; hesabınızın kötüye kullanıldığını düşünüyorsanız bizimle iletişime geçin.</p>
+<h2>11. Çocuklar</h2>
+<p>Uygulama 16 yaşın altındaki çocuklara yönelik değildir ve onların verilerini bilerek toplamayız. Bir çocuğun bize veri verdiğini düşünüyorsanız bizimle iletişime geçin, sileriz.</p>
+<h2>12. Bu politikadaki değişiklikler</h2>
+<p>Bu politikayı değiştirirsek yukarıdaki tarihi güncelleriz ve önemli değişiklikleri uygulamada size bildiririz.</p>
+<h2>13. İletişim</h2>
+<p><a href="mailto:familyfinance.support@gmail.com">familyfinance.support@gmail.com</a></p>
+<footer><a href="../../">Ana sayfa</a></footer>
+</main>
+</body>
+</html>

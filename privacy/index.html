@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy</title>
+<style>:root{color-scheme:light dark;--bg:#F6F8FB;--fg:#22272B;--muted:#5E6873;--line:#D9E0E7;--accent:#A96A2C}
+@media (prefers-color-scheme:dark){:root{--bg:#24282C;--fg:#ECEFF2;--muted:#B8C0C8;--line:#434A50;--accent:#C98546}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:0 16px 64px}
+main{max-width:720px;margin:0 auto}
+header{padding:28px 0 8px;border-bottom:1px solid var(--line);margin-bottom:8px}
+h1{font-size:1.8rem;line-height:1.2;margin:0 0 6px}
+h2{font-size:1.15rem;margin:2rem 0 .5rem}
+p,li{max-width:68ch}
+li{margin:.35rem 0}
+a{color:var(--accent)}
+nav.lang{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:.92rem}
+nav.lang b{color:var(--muted)}
+footer{margin-top:3rem;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:1rem}
+.cards{display:grid;gap:12px;margin-top:1.5rem}
+.card{display:block;border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--fg)}
+.card strong{display:block;color:var(--accent);margin-bottom:2px}</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Privacy Policy</h1>
+<nav class="lang" aria-label="Language"><b>English</b> <a href="../privacy/ar/" hreflang="ar">العربية</a> <a href="../privacy/tr/" hreflang="tr">Türkçe</a></nav>
+</header>
+<p>Last updated 31 October 2026</p>
+<p>This app is a personal finance tracker. It records the income, expenses and investments you type in, the cards and bank accounts you pay with, and the statements you import, shows charts, and can, if you allow it, ask an AI service to review your trends. This policy explains what data the app handles, where it goes and what you can do about it.</p>
+<p>The app is made and run by its developer, who is responsible for your data. Contact: <strong><a href="mailto:familyfinance.support@gmail.com">familyfinance.support@gmail.com</a></strong>.</p>
+<p>We do not show ads, we do not track you across apps or websites, we do not sell or share your data for advertising, and the app contains no analytics or crash-reporting tools of our own. The app never connects to your bank, never sees your bank login and cannot move money.</p>
+<h2>1. What we collect and why</h2>
+<ul>
+<li><strong>Your email address and password.</strong> To create your account and sign you in. We store only a secure hash of the password, never the password itself. Kept at Supabase (our hosting provider), Frankfurt, Germany.</li>
+<li><strong>Your display name, if you set one.</strong> To show other members of a shared space who added an entry. Kept at Supabase, Frankfurt.</li>
+<li><strong>Your financial records.</strong> Transactions and their notes, categories and subcategories (including names you create), accounts, budgets, repeating payments and reminders, investment holdings, hand-entered asset values, and AI reports. This is the app&#x27;s purpose: to store, total and chart your records. Kept at Supabase, Frankfurt, protected so only members of the space they belong to can read them.</li>
+<li><strong>Cards and bank accounts you pay with.</strong> The kind (cash, bank account, credit card, debit card), the name you give it, the bank&#x27;s name, the <strong>last 4 digits only</strong>, the currency and colour, and for a credit card the statement day, due day, credit limit, opening balance and how many days before the due date to remind you. This shows what paid for each entry, what you owe on a card and when it is due. <strong>We never ask for or store a full card or account number</strong>, an expiry date, a security code or a bank login. Kept at Supabase, Frankfurt. Only you can read them (section 4 explains the label others see).</li>
+<li><strong>Card bill payments.</strong> Money you record moving between two of your own cards or accounts (for example &quot;Pay card bill&quot;), with amount, date and an optional note. They lower what you owe on a card without counting as spending. They are kept in your personal records only, are never shown in a shared space, and are not included in backups.</li>
+<li><strong>Statement imports.</strong> The entries you tick on the review screen, plus a record of the import: the file&#x27;s name, the card or account, the number of entries and the date. This lets you see your recent imports and undo one for 30 days. <strong>The statement file itself never leaves your device.</strong></li>
+<li><strong>Email addresses you invite to a shared space.</strong> To add those people to the space and send them the invitation.</li>
+<li><strong>A share-price key, if a space&#x27;s owner adds one</strong> (section 3). To fetch share prices for that space with the owner&#x27;s own free account. It is stored encrypted in the database&#x27;s secret store, is never shown again, not even to the owner, and is deleted with the space.</li>
+</ul>
+<p>We use this data only to provide the app&#x27;s features to you. We process it because you asked us to (to provide the service you signed up for) and, for AI insights, because the space&#x27;s owner agreed (section 5).</p>
+<h2>2. What stays on your device</h2>
+<p>These never leave your phone or computer:</p>
+<ul>
+<li><strong>Voice entry</strong> (iPhone): speech is recognised on the device. If your phone cannot recognise your language offline, voice entry does not work; it never falls back to a server.</li>
+<li><strong>Receipt photos</strong> (iPhone): the text is read on the device. The photo is not uploaded, and the app deletes its own copy as soon as the text is read.</li>
+<li><strong>Statement files</strong> you import (CSV, Excel and PDF) are read on the device. Only the entries you tick are saved (section 1).</li>
+<li><strong>PDF passwords</strong>: if a statement PDF is protected, the app asks for the password each time, uses it to open that file on the device, and never stores or sends it.</li>
+<li><strong>Photos of paper statements and scanned PDFs</strong> (iPhone): the text is read on the device with Google ML Kit, which reads Latin script only. The photos are not uploaded, and the app deletes its copies once they are read. A scanned statement is listed under a neutral name such as &quot;Scan 2026-10-16 14:23:05&quot;.</li>
+<li><strong>Category suggestions</strong> for imported entries, and the <strong>statement layouts</strong> the app remembers for each bank&#x27;s file format, are worked out and kept on the device.</li>
+<li><strong>Bank messages</strong> you paste, and what the app learns from them and from imports (which merchant belongs to which category, which card to which account).</li>
+<li>The <strong>last card or account you paid with</strong>, so the next entry starts with it.</li>
+<li><strong>Reminders</strong>, including card due-date reminders, are notifications scheduled on the device.</li>
+<li>The <strong>offline copy</strong> of your data and entries waiting to upload.</li>
+<li><strong>&quot;Remember me&quot;</strong>: if you turn it on, your email and password are kept in the device&#x27;s encrypted store (iOS Keychain or Windows Credential Manager). They are never sent anywhere except to sign you in.</li>
+<li><strong>Face ID and Touch ID</strong> (iPhone): if you turn on sign-in with Face ID or Touch ID, or the app lock, the phone only tells the app yes or no. Your face or fingerprint never reaches the app or us. The two switches are kept in the device&#x27;s encrypted store.</li>
+<li>Reminder settings and the progress of the first-run walkthrough.</li>
+</ul>
+<h2>3. Services that process data for us</h2>
+<ul>
+<li><strong>Supabase</strong> (database, sign-in, server functions), EU region, Frankfurt. Receives everything in section 1, always; this is where your account lives.</li>
+<li><strong>Groq</strong>, United States. Receives the summary described in section 5, only if the space&#x27;s owner turned on AI insights.</li>
+<li><strong>Google ML Kit</strong> (receipt and statement scanning, iPhone). It does not receive the photo or its text. Google&#x27;s library sends device, app and performance information, per-installation identifiers and error codes to Google, for diagnostics and usage analytics, when you scan a receipt, a paper statement or a scanned PDF.</li>
+<li><strong>jsDelivr</strong> (exchange rates). Receives your device&#x27;s IP address, as with any web request, and which currency and date are looked up. No account data. Used when you enter an amount in another currency, change your base currency, or import a statement in another currency.</li>
+<li><strong>Twelve Data</strong> (US shares and ETFs) and <strong>Alpha Vantage</strong> (London and XETRA listings). Only if the space&#x27;s owner adds their own free key: the symbols of the shares and ETFs held in that space are sent with that owner&#x27;s key, with no user, amount or account data. When anyone searches for a share in the app, the text typed in the search box is sent to Twelve Data&#x27;s public search, from our server, without any key or user data.</li>
+<li><strong>CoinGecko</strong> (prices). Receives only the list of coin and metal symbols held across all users, sent by our server once a day. No user, space, amount or device information.</li>
+<li><strong>Google (Gmail)</strong>, which delivers our emails. Receives the recipient&#x27;s email address and the email&#x27;s content: a sign-up or password-reset code, a &quot;password changed&quot; notice, the summary of a deleted account (the names of your spaces and of the people they went to), an <strong>invitation</strong> (sent to the person you invite; it contains the space&#x27;s name and your display name and email address), or the <strong>share-price setup steps</strong> (sent to you when you ask for them).</li>
+<li><strong>Brevo</strong> (backup email sender). Receives the same as Gmail, for the invitation, account-deleted and setup-steps emails, only if we switch it on because Gmail cannot deliver. It is not used today.</li>
+</ul>
+<h2>4. Shared spaces: who sees what</h2>
+<p>Everyone has a personal space that only they can see. You can also create a shared space (for example for a family) and invite people. <strong>Everyone in a shared space sees everything in it</strong>: entries, notes, categories, budgets, holdings and AI reports, plus the email address or display name of each member and who added each entry. Only the space&#x27;s owner can change its settings, invite or remove members, or delete it.</p>
+<p><strong>Cards and accounts in a shared space.</strong> Your cards and bank accounts belong to you, not to a space. When you record an entry in a shared space with one of them, the other members see that card&#x27;s <strong>name, kind, colour and last 4 digits</strong>, and that it is yours. They never see your other cards, your bank&#x27;s name, balances, credit limits, due dates or your card bill payments. If you later remove the card, or delete your account, entries already recorded keep a plain label with its name and last 4 digits, so the family&#x27;s records still say what paid.</p>
+<p><strong>Statement imports in a shared space.</strong> Members see the list of recent imports in that space (the file&#x27;s name, the date and the number of entries). Only the person who imported a statement can undo it.</p>
+<h2>5. AI insights (optional)</h2>
+<p>AI insights are <strong>off until the owner of a space turns them on</strong>. Before anything is sent, the app shows what is shared and asks the owner to allow it. The owner can turn it off at any time in Settings, and nothing more is sent after that.</p>
+<p><strong>In a shared space, the owner decides for everyone in it.</strong> Other members see a notice that AI analysis is on or off, but cannot change it. If a space gets a new owner (for example because the previous owner deleted their account) or is restored from a backup, AI insights start off again until its owner allows them.</p>
+<p>When AI insights are on, our server builds a summary of the space and sends it to <strong>Groq in the United States</strong>. The summary contains:</p>
+<ul>
+<li>monthly totals of income, spending and investment, and savings rates;</li>
+<li>totals per category and per investment type, <strong>including the category and subcategory names you created</strong> (if a name you chose contains personal details, such as a person&#x27;s name, that name is sent too);</li>
+<li>your budgets and how close you came to them;</li>
+<li>repeating payments, and payments that look repeating (by category and amount);</li>
+<li>the findings of the previous report for that space.</li>
+</ul>
+<p><strong>Notes are not sent</strong> unless the owner also turns on <strong>&quot;Include notes&quot;</strong>, which is off by default. With it on, the first 40 characters of the notes on payments that repeat are sent, so the report can name them.</p>
+<p><strong>Never sent:</strong> your email, your name, account names, the space&#x27;s name, single transactions, and anything about your <strong>cards, bank accounts, card bill payments or statement files</strong>.</p>
+<p>Groq&#x27;s terms do not allow it to use the summary to train or improve AI models. We have turned on Groq&#x27;s zero data retention, so Groq does not keep the summary or the report after it has answered.</p>
+<p>The AI service returns a short report, which we store in the space. Reports are informational and are not financial or investment advice.</p>
+<h2>6. Backups you make</h2>
+<p>You can save a backup file of a space. The file is created on your device and saved wherever you choose (for example Files, iCloud Drive or OneDrive). <strong>We never receive it.</strong> It contains the space&#x27;s transactions, categories, accounts, budgets, repeating payments and holdings, and for each entry the label of the card or account that paid for it (its name and last 4 digits). It does not contain your email, password, account identifiers, your card settings or your card bill payments.</p>
+<p>If you set a passphrase, the file is encrypted with AES-256-GCM using a key derived from your passphrase (PBKDF2-HMAC-SHA256). We never see or store the passphrase and cannot recover it. <strong>Without a passphrase, anyone who has the file can read it.</strong> Restoring a backup creates a new space that you own; it never overwrites an existing one.</p>
+<h2>7. How long we keep data, and deleting your account</h2>
+<p>We keep your data while you have an account. You can delete entries, categories, cards, bill payments and spaces at any time, and undo a statement import within 30 days of making it.</p>
+<p><strong>Delete your account</strong> in the app: Settings › Account › Delete account. Before you confirm, the app shows exactly what will happen:</p>
+<ul>
+<li>your login, your profile, your personal space and any space where you are the only member are deleted, with everything in them;</li>
+<li>your <strong>cards and bank accounts, card bill payments and import records</strong> are deleted;</li>
+<li>a shared space you own that has other members is <strong>handed to its longest-standing member</strong>, who becomes its owner; your entries in it stay, under their name;</li>
+<li>your entries in <strong>other people&#x27;s spaces stay</strong> and move to that space&#x27;s owner, so their records remain complete. Those entries keep the label of the card they were paid with (its name and last 4 digits).</li>
+</ul>
+<p>Deletion is immediate. Our hosting provider may keep copies in routine backups for a limited time (up to 7 days) before they expire. Backup files you saved yourself are not affected; delete them separately.</p>
+<p><strong>Invitation and email-request records.</strong> To enforce the sending limits (one invitation per address and space a day, 20 a day per person, three setup-step emails a day), we keep a record of each email address invited and of each requested email, with the time. We delete these records within 3 days.</p>
+<p>You can also email <a href="mailto:familyfinance.support@gmail.com">familyfinance.support@gmail.com</a> to ask us to delete your account.</p>
+<p>Once the deletion is complete, we send one last email to your address. It confirms what was deleted, handed over and kept. We keep no copy of it.</p>
+<h2>8. Your rights</h2>
+<p>Depending on where you live (for example in the EU, the UK or Türkiye), you have the right to:</p>
+<ul>
+<li><strong>access</strong> your data and get a copy of it (the app exports CSV files and full backup files);</li>
+<li><strong>correct</strong> it (edit it in the app);</li>
+<li><strong>delete</strong> it (section 7);</li>
+<li><strong>withdraw consent</strong> for AI insights at any time (Settings);</li>
+<li><strong>object</strong> to or restrict how we process it;</li>
+<li><strong>complain</strong> to your data-protection authority.</li>
+</ul>
+<p>To use any of these rights, email <a href="mailto:familyfinance.support@gmail.com">familyfinance.support@gmail.com</a>. We answer within 30 days.</p>
+<p><strong>International transfers.</strong> Your account data is stored in the EU. If a space&#x27;s owner turns on AI insights, the summary in section 5 may be processed by Groq in the United States.</p>
+<h2>9. Emails we send</h2>
+<p>We only send service emails, never marketing. There are six: the code to confirm your email when you sign up, the code to reset a forgotten password, a notice when your password changes, a confirmation when your account is deleted, an invitation to the person you invite to a shared space, and, when you ask for it, the steps to set up a share-price key. They are written in the language you use in the app.</p>
+<h2>10. Security</h2>
+<p>Data travels encrypted (HTTPS). The database lets each person read only the spaces they belong to, and only their own cards, accounts and bill payments. Account deletion requires your password. We never ask for full card numbers or bank logins, and PDF passwords are never stored. No system is perfectly secure; if you believe your account has been misused, contact us.</p>
+<h2>11. Children</h2>
+<p>The app is not directed at children under 16, and we do not knowingly collect their data. If you believe a child has given us data, contact us and we will delete it.</p>
+<h2>12. Changes to this policy</h2>
+<p>If we change this policy, we will update the date above and, for important changes, tell you in the app.</p>
+<h2>13. Contact</h2>
+<p><a href="mailto:familyfinance.support@gmail.com">familyfinance.support@gmail.com</a></p>
+<footer><a href="../">Home</a></footer>
+</main>
+</body>
+</html>
